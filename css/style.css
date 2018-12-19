@@ -10,10 +10,10 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 .glavnaya {
-	background-image: url(../img/Dreams (2).png);
-width: 1400px;
-height: 645px;
-margin-top: 0px;
+	background-image: url(../img/Dreams.png);
+	width: 1400px;
+	height: 645px;
+	margin-top: 0px;
 }
 ul {
 	margin-top: 0px;
