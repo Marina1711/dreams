@@ -1,0 +1,390 @@
+@font-face {
+	font-family: Bello Script;
+	src: url(../fonts/BelloScript.otf);
+	font-style: normal; 
+	font-weight: normal;
+}
+body {
+	background-color: #282828;
+	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+.glavnaya {
+	background-image: url(../img/Dreams-копия.png);
+	width: 1400px;
+	height: 645px;
+	margin-top: 0px;
+}
+ul {
+	margin-top: 0px;
+	margin-left: 625px;
+	margin-top: 0px;
+	list-style-type: none;
+}
+li {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 550;
+	margin-top: 35px;
+	display: inline-block;
+	margin-right: 40px;
+}
+li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+h1 {
+	font-family: Bello Script;
+	font-weight: 500;
+	position: absolute;
+	font-size: 36px;
+	margin-top: 35px;
+	margin-left: 100px;
+	color: #ffffff;
+}
+h2 {
+	font-weight: 700;
+	font-size: 42px;
+	position: absolute;
+	margin-left: 456px;
+	margin-top: 175px;
+	text-align: center;
+	color: #ffffff;
+}
+hr {
+	position: absolute;
+	background-color: #36b9eb;
+	border: 1px solid #36b9eb;
+	width: 110px;
+	margin-top: 330px;
+	margin-left: 640px;
+}
+section p {
+	font-family: 'Noto Sans', sans-serif;
+	position: absolute;
+	font-size: 20px;
+	color: #cccccc;
+	margin-top: 380px;
+	margin-left: 500px;
+	text-align: center;
+}
+li a:hover {
+	color: #ee2f1b;
+}
+.service {
+	width: 1400px;
+	height: 535px;
+	margin:0;
+	background-color: #ffffff;
+}
+.service h3 {
+	position: absolute;
+	font-size: 40px;
+	padding-left: 550px;
+	padding-top: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+
+}
+.service h3 hr {
+
+	background-color: #36b9eb;
+	border: 1px solid #36b9eb;
+	width: 110px;
+	margin-top: 40px;
+	margin-left: 105px;
+}
+.core {
+	display: inline-block;
+	width: 300px;
+	margin: 250px 160px;
+	margin-right: 100px;
+	text-align: center;
+}
+.core p {
+	margin: 0;
+	width: 300px;
+	font-size: 14px;
+	text-align: center;
+}
+.flow-tree {
+	display: inline-block;
+	width: 300px;
+	margin-right: 100px;
+	text-align: center;
+}
+.flow-tree p {
+	margin:0;
+	width: 300px;
+	text-align: center;
+	font-size: 14px;
+}
+.lifebuoy {
+	width: 300px;
+	display: inline-block;
+	text-align: center;
+}
+.lifebuoy p {
+	margin:0;
+	width: 300px;
+	font-size: 14px;
+}
+.expertise {
+	width: 1400px;
+	height: 616px;
+	background-color: rgb(247,247,247);
+}
+.expertise h3 {
+	position: relative;
+	font-size: 40px;
+	margin-top: 0px;
+	padding-top: 100px;
+	margin-left: 145px;
+}
+.expertise p {
+	font-weight: 200;
+	font-size: 16px;
+	font-family: 'Noto Sans', sans-serif;
+	height: 50px;
+	width: 665px;
+	margin-top: 0px;
+	margin-left: 140px;
+	text-align: left;
+}
+.gear {
+	margin-left: 140px;
+	margin-top: 130px;
+}
+.gear h5 {
+	padding-left: 40px;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.gear p {
+	font-family: 'Noto Sans', sans-serif;
+	margin-left: 0;
+	margin-top: -10px;
+	width: 340px;
+	padding-left: 40px;
+	padding-top: 0;
+	font-size: 14px;
+}
+
+.cloud {
+	margin-left: 530px;
+	margin-top: -40px;
+}
+.cloud h5 {
+	padding-left: 50px;
+}
+.cloud p {
+	font-family: 'Noto Sans', sans-serif;
+	margin-left: 0;
+	margin-top: -10px;
+	width: 340px;
+	padding-left: 50px;
+	font-size: 14px;	
+}
+.star {
+	padding: 0;
+	display: block;
+	margin-top: 80px;
+	margin-left: 140px;
+}
+.star h5 {
+	padding-left: 40px;
+}
+.star p {
+	font-family: 'Noto Sans', sans-serif;
+	margin-left: 0;
+	margin-top: -10px;
+	width: 340px;
+	padding-left: 40px;
+	font-size: 14px;
+}
+.look {
+	margin-left: 530px;
+	margin-top: -40px;
+}
+.look h5 {
+	padding-left: 45px;
+}
+.look p {
+	margin-left: 0;
+	margin-top: -10px;
+	width: 340px;
+	padding-left: 45px;
+	font-size: 14px;
+}
+.learn-more a {
+	width: 174px;
+	height: 60px;
+	border: 1px solid rgb(209,241,253);
+	display: inline-block;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	border-radius:40px;
+	color: black;
+	font-weight: bold;
+	background-color: #ffffff;
+	margin-top: 70px;
+	margin-left: -430px;
+}
+.learn-more a:hover {
+	background-color: #35c2f8;
+	color:#ffffff;
+	font-weight: normal;
+}
+.portfolio {
+	width: 1400px;
+	height: 700px;
+	background-color: #ffffff;
+	margin-top: 0;
+}
+.portfolio img {
+	margin-top: 63px;
+}
+.portfolio h3 {
+	position: absolute;
+	font-weight: 705px;
+	margin-left: 131px;
+	margin-top: 98px;
+	width: 419px;
+	height: 30px;
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+
+}
+.text {
+	position: absolute;
+	margin-left: 131px;
+	margin-top: 180px;
+	width: 531px;
+	height: 135px;
+	color: #777777;
+	font-family: "Noto Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: -0.35px;
+	text-align: left;
+}
+.gear-portfolio {
+	position: absolute;
+}
+.gear-portfolio img {
+	margin-top: 355px;
+	margin-left: 131px;
+}
+.gear-portfolio h5 {
+	position: absolute;
+	margin-top: 355px;
+	margin-left: 177px;
+	height: 13px;
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 22px;
+	text-transform: uppercase;
+	/* Text style for "S, ail Awa" */
+	letter-spacing: -0.4px;
+
+}
+.users img {
+	position: relative;
+	margin-top: 182px;
+	margin-left: 131px;
+}
+.gear-portfolio p {
+	width: 422px;
+	height: 37px;
+	color: #777777;
+	font-family: "Noto Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: -0.35px;
+	margin-top: 381px;
+	margin-left: 177px;
+}
+.star-portfolio {
+	position: absolute;
+}
+.star-portfolio img {
+	margin-top: 445px;
+	margin-left: 131px;
+}
+.star-portfolio h5 {
+	margin-top: 448px;
+	margin-left: 177px;
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 22px;
+	text-transform: uppercase;
+	/* Text style for "A, ll-star" */
+	letter-spacing: -0.4px;
+}
+.star-portfolio p {
+	margin-top: -20px;
+	margin-left: 177px;
+	width: 422px;
+	height: 37px;
+	color: #777777;
+	font-family: "Noto Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: -0.35px;
+}
+.pie-portfolio {
+	position: absolute;
+}
+.pie-portfolio img {
+	margin-top: 537px;
+	margin-left: 131px;
+}
+.pie-portfolio h5 {
+	margin-top: 539px;
+	margin-left: 177px;
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: -0.4px;
+}
+.pie-portfolio p {
+	margin-top: -20px;
+	margin-left: 177px;
+	width: 422px;
+	height: 37px;
+	color: #777777;
+	font-family: "Noto Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	/* Text style for "P, roin ia" */
+	letter-spacing: -0.35px;
+}
+
+.photo-portfolio {
+	display: block;
+	float: left;
+	margin: 0;
+	outline: none;
+	background-color: #ffffff;
+}
+.photo-portfolio a {
+	outline: none;
+	float: left;
+	margin: 0;
+	outline: none;
+}
+.photo-portfolio a:hover {
+	transform: scale(1.1);
+}
