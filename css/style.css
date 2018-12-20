@@ -375,15 +375,16 @@ li a:hover {
 .photo-portfolio {
 	display: block;
 	float: left;
-	margin: 0;
 	outline: none;
 	background-color: #ffffff;
 }
 .photo-portfolio a {
+	display: block;
 	outline: none;
 	float: left;
 	margin: 0;
 	outline: none;
+	transition: 0.5s;
 }
 .photo-portfolio a:hover {
 	transform: scale(1.1);
