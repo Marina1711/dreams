@@ -13,7 +13,7 @@ body {
 	background-image: url(https://raw.githubusercontent.com/Marina1711/dreams/master/img/Dreams.png);
 	width: 1400px;
 	height: 645px;
-	margin-top: 0px;
+	margin:0 auto;
 }
 ul {
 	margin-top: 0px;
@@ -73,7 +73,7 @@ li a:hover {
 .service {
 	width: 1400px;
 	height: 535px;
-	margin:0;
+	margin:0 auto;
 	background-color: #ffffff;
 }
 .service h3 {
@@ -132,6 +132,7 @@ li a:hover {
 	width: 1400px;
 	height: 616px;
 	background-color: rgb(247,247,247);
+	margin:0 auto;
 }
 .expertise h3 {
 	position: relative;
@@ -240,7 +241,7 @@ li a:hover {
 	width: 1400px;
 	height: 700px;
 	background-color: #ffffff;
-	margin-top: 0;
+	margin: 0 auto;
 }
 .portfolio img {
 	margin-top: 63px;
@@ -373,19 +374,103 @@ li a:hover {
 }
 
 .photo-portfolio {
-	display: block;
-	float: left;
-	outline: none;
+	width: 1400px;
+	margin:0 auto;
 	background-color: #ffffff;
+	/*overflow: hidden;*/
+	display:flex;
+	flex-wrap: wrap;
 }
 .photo-portfolio a {
-	display: block;
-	outline: none;
-	float: left;
-	margin: 0;
-	outline: none;
+	/*float: left;*/
+	width:calc(100% / 3);
+	height: 350px;
+	overflow: hidden;
+	position:relative;
+}
+.photo-portfolio a img {
 	transition: 0.5s;
 }
-.photo-portfolio a:hover {
+.photo-portfolio a:hover img {
 	transform: scale(1.1);
+}
+.photo-portfolio a span {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.8);
+	position: absolute;
+	top:0;
+	left:0;
+	color:#fff;
+	text-align: center;
+	line-height: 350px;
+	font-size: 40px;
+	transition:.4s;
+	transform:scale(0);
+}
+.photo-portfolio a:hover span {
+	transform:scale(1) rotate(360deg);
+}
+.about {
+	margin: auto;
+	width: 1400px;
+	height: 1600px;
+	background: #ffffff;
+}
+.about h3 {
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+	/* Text style for "A, bout Us" */
+	letter-spacing: -1px;
+	padding-top: 101px;
+	padding-left: 600px;
+	margin: 0;
+}
+.about hr {
+	margin-top: 28px;
+	margin-left: 44px;
+	width: 111px;
+	height: 1px;
+	background-color: #35c2f8;
+}
+.about-photo {
+	margin: 14px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.about-photo img {
+	margin-top:107px;
+}
+.about-photo h5 {
+	text-align: left;
+}
+.july {
+	position: absolute;
+	margin-top:92px;
+}
+.july h5 {
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 16px;
+	text-transform: uppercase;
+	/* Text style for "J, uly 201" */
+	letter-spacing: -0.4px;
+	text-align: right;
+}
+.july p {
+	width: 303px;
+	height: 102px;
+	color: #777777;
+	font-family: "Noto Sans";
+	font-size: 14px;
+	font-weight: 400;
+	/* Text style for "P, roin ia" */
+	letter-spacing: -0.35px;
+	text-align: right;
 }
