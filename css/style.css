@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Bello Script;
-	src: url(../fonts/BelloScript.otf);
+	src: url(https://github.com/Marina1711/dreams/blob/master/fonts/BelloScript.otf?raw=true);
 	font-style: normal; 
 	font-weight: normal;
 }
@@ -50,7 +50,7 @@ h2 {
 	text-align: center;
 	color: #ffffff;
 }
-hr {
+.glavnaya hr {
 	position: absolute;
 	background-color: #36b9eb;
 	border: 1px solid #36b9eb;
@@ -413,9 +413,8 @@ li a:hover {
 	transform:scale(1) rotate(360deg);
 }
 .about {
-	margin: auto;
+	margin:0 auto;
 	width: 1400px;
-	height: 1600px;
 	background: #ffffff;
 }
 .about h3 {
@@ -425,52 +424,328 @@ li a:hover {
 	font-weight: 700;
 	line-height: 75px;
 	text-transform: uppercase;
-	/* Text style for "A, bout Us" */
 	letter-spacing: -1px;
 	padding-top: 101px;
 	padding-left: 600px;
-	margin: 0;
+	/*	margin-top: 0;*/
+	margin:0 auto;
 }
 .about hr {
 	margin-top: 28px;
 	margin-left: 44px;
 	width: 111px;
 	height: 1px;
-	background-color: #35c2f8;
+	background-color: #36b9eb;
+	border: 1px solid #36b9eb;
+	position: absolute;
 }
-.about-photo {
-	margin: 14px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.about-photo  {
+	height: 1430px;
 }
 .about-photo img {
-	margin-top:107px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
 }
-.about-photo h5 {
-	text-align: left;
+.about-photo img:not(.f-1) {
+	margin:0 auto;
 }
-.july {
+.f-1 {
+	margin:0px auto;
+	padding-top: 92px;
+}
+.juli {
 	position: absolute;
-	margin-top:92px;
+	width: 303px;
 }
 .july h5 {
 	color: #222222;
 	font-family: Montserrat;
 	font-size: 16px;
 	text-transform: uppercase;
-	/* Text style for "J, uly 201" */
 	letter-spacing: -0.4px;
 	text-align: right;
+	margin-top: 92px;
+	position: absolute;
+	margin-left:267px;
+	width: 303px;
 }
 .july p {
-	width: 303px;
-	height: 102px;
+	position: absolute;
 	color: #777777;
 	font-family: "Noto Sans";
 	font-size: 14px;
 	font-weight: 400;
-	/* Text style for "P, roin ia" */
+	letter-spacing: -0.35px;
+	text-align: right;
+	margin-top: 151px;
+	width: 303px;
+	margin-left:267px;
+}
+.january {
+	position: absolute;
+	margin-left: 832px;
+	width: 303px;
+}
+.january h5 {
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 16px;
+	text-align: left;
+	margin-top:93px;
+}
+.january p {
+	color: #777777;
+	font-family: "Noto Sans";
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: -0.35px;
+	text-align: left;
+	margin-top: 0;
+}
+.december {
+	position: absolute;
+	width: 303px;
+	margin-left: 267px;
+}
+.december h5 {
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 16px;
+	text-align: right;
+	margin-top:93px;
+}
+.december p {
+	color: #777777;
+	font-family: "Noto Sans";
+	font-size: 14px;
+	font-weight: 400;
 	letter-spacing: -0.35px;
 	text-align: right;
 }
+.february {
+	position: absolute;
+	margin-left: 832px;
+	width: 299px;
+}
+.february h5 {
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 16px;
+	text-align: left;
+	margin-top:93px;
+}
+.february p {
+	color: #777777;
+	font-family: "Noto Sans";
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: -0.35px;
+	text-align: left;
+	padding-top: 0;
+}
+.awesome-team {
+	width: 1400px;
+	height: 800px;
+	background-color: #f7f7f7;
+	margin:0 auto;
+}
+.awesome-team h3 {
+	margin: 0;
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	/* Text style for "A, wesome" */
+	letter-spacing: -1px;
+	padding-top: 100px;
+	padding-left: 534px;
+}
+.awesome-team hr {
+	width: 111px;
+	height: 1px;
+	margin-top: 33px;
+	margin-left: 112px;
+	background-color: #36b9eb;
+	border: 1px solid #36b9eb;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; 
+	margin-left: 260px;
+	margin-right: 260px;
+	margin-top: 82px;
+}
+.text-awesome {
+	width: 234px;
+	height: 350px;
+}
+.ramki {
+	width: 234px;
+	height: 235px;
+	border-radius: 50%;
+	background-color: black;
+}
+.text-awesome p {
+	padding-top:260px;
+	text-align: center;
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+}
+.text-awesome p span {
+	color: #777777;
+	font-family: "Noto Sans";
+	font-size: 14px;
+	font-weight: 400;
+}
+.soc {
+	text-align: center;
+}
+#text-end {
+	width: 588px;
+	height: 42px;
+	color: #777777;
+	font-family: "Noto Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: -0.4px;
+	margin-left: 405px;
+	margin-top: 80px;
+	text-align: center;
+}
+footer {
+	width: 1400px;
+	height: 640px;
+	background-color: #111111;
+	margin:0 auto;
+}
+.us-end {
+	display: flex;
+}
+form {
+	width: 456px;
+	height: 400px;
+	margin-top:71px;
+}
+.name-email {
+	width: 456px;
+	height: 50px;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+}
+/*#massage {*/
+	textarea {
+		width: 452px;
+		height: 166px;
+		border: 1px solid #cccccc;
+		background-color: #ffffff;
+	}
+	::-webkit-input-placeholder {
+		padding-left: 20px;
+		padding-top: 19px;
+		color: #bbbbbb;
+		font-family: "Noto Sans";
+		font-size: 14px;
+		font-weight: 400;
+	}
+	.contact-us h3 {
+		color: #ffffff;
+		font-family: Montserrat;
+		font-size: 40px;
+		font-weight: 700;
+		text-transform: uppercase;
+		/* Text style for "C, ontact" */
+		letter-spacing: -1px;
+		margin:100px 230px 0;
+	}
+	.contact-us p {
+		/* Style for "Don’t be s" */
+		color: #ffffff;
+		font-family: "Noto Sans";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 18px;
+		/* Text style for "D, on’t be" */
+		letter-spacing: -0.35px;
+		width: 405px;
+		margin:35px 230px 57px;
+	}
+	.inline-contact {
+		display: flex;
+		flex-direction: row;
+		list-style-type: none;
+		margin-left: 170px;
+	}
+	.inline {
+		display: flex;
+		flex-direction: column;
+
+	}
+	.inline-1 {
+		display: flex;
+		flex-direction: column;
+	}
+	.inline a,
+	.inline-1 a {
+		text-decoration: none;
+		color: #ffffff;
+		font-family: "Noto Sans";
+		font-size: 16px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	.inline i,
+	.inline-1 i {
+		color:#ffffff;
+		font-size: 30px;
+		margin:0 13px 40px 60px;
+	}
+	#send-massage {
+		width: 187px;
+		height: 60px;
+		border: 1px solid #35c2f8;
+		line-height: 60px;
+		text-align: center;
+		border-radius:40px;
+		color: black;
+		background-color: #35c2f8;
+		color:#ffffff;
+		margin-top: 21px;
+	}
+	#send-massage:hover {
+		width: 198px;
+		height: 50px;
+		background-color: red;
+		border-radius:0px;
+		line-height: 50px;
+	}
+	input,
+	textarea {
+		margin-top: 29px;
+	}
+
+	.end hr {
+		width: 940px;
+		height: 1px;
+		background-color: #ffffff;
+		margin-top: 87px;
+		margin-bottom: 32px;
+	}
+	.end p {
+		width: 214px;
+		height: 15px;
+		color: #ffffff;
+		font-family: "Noto Sans";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		/* Text style for "© 2014 , D" */
+		letter-spacing: -0.35px;
+		margin:auto;
+
+	}
